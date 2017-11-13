@@ -1,0 +1,16 @@
+<section data-background-url="${backgroundImageUrl}" style="background-color: ${backgroundColor};">
+
+    <video id="video" class="full-width-nomarg" controls autobuffer poster="${posterSrc}" title="${title}">
+        <source src="${videoSrc}" type="video/mp4">
+
+    </video>
+
+   <a href="${deepLink}" data-deeplink-attr-name="href" class="button" style="color:${buttonTextColor};background-color:${buttonColor};">${buttonText}</a>
+
+
+    <h3>${title}</h3>
+
+    <p>${description}</p>
+
+
+</section>
